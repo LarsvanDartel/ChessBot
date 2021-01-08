@@ -1,0 +1,26 @@
+{
+  "name": "chessbot",
+  "version": "1.0.0",
+  "description": "A discord bot that allows you to play chess in the discord environment.",
+  "main": "index.js",
+  "dependencies": {
+    "chess.js": "^0.11.0",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "long": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarsvanDartel/ChessBot.git"
+  },
+  "author": "LarsvanDartel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarsvanDartel/ChessBot/issues"
+  },
+  "homepage": "https://github.com/LarsvanDartel/ChessBot#readme"
+}
