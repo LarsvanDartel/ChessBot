@@ -1,10 +1,8 @@
 const express = require('express');
-const updateStatus = require('index.js');
 const server = express();
 
 server.all('/', (req, res) => {
 	res.send('Your bot is alive!')
-
 });
 
 function keepAlive(){
