@@ -1,5 +1,3 @@
-const Discord = require('discord.js');
-const Long = require('long');
 
 const getGeneralChannel = function (guild){
     if(guild.channels.cache.has(guild.id)) return guild.channels.cache.get(guild.id);
@@ -18,4 +16,5 @@ const getChessChannel = function(guild){
 
     return getGeneralChannel(guild);
 }
-module.exports = {getGeneralChannel, getChessChannel};
+
+module.exports = {getChessChannel};
